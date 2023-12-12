@@ -1,23 +1,17 @@
 <template>
-  <HistoryVue></HistoryVue>
-  <LoginVue></LoginVue>
+  <!-- <router-view></router-view> -->
+<RentalBooking></RentalBooking>
 </template>
 
 <script>
 
-import HelloWorld from './components/HelloWorld.vue'
-import LoginVue from './components/LoginVue.vue'
-import HistoryVue from './components/HistoryVue.vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import RentalBooking from './components/RentalBooking.vue'
 export default {
-components : {
-  LoginVue,
-  HistoryVue,
-}
+  components: {
+ RentalBooking
+    // homeuser 
+  }
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
